@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MarketList</string>
+    <string name="menu_novo_produto">Novo</string>
+    <string name="menu_list_produto">Produtos</string>
+    <string name="label_local_compra">Local compra: </string>
+    <string name="label_valor_produto">Valor R$: </string>
+    <string name="label_nome_produto">Nome produto: </string>
+    <string name="text_button_salvar">Salvar ;)</string>
+    <string name="text_titulo">Market ;)</string>
+    <string name="information_photo">Foto produto</string>
+    <string name="label_marca">Marca: </string>
+    <string name="menu_salvar_produto">Salvar</string>
+    <string name="menu_item_excluir">Excluir</string>
+    <string name="menu_item_cancelar">Cancelar</string>
+</resources>
