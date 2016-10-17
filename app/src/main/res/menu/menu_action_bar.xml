@@ -12,15 +12,18 @@
      <item android:id="@+id/new_produto"
           app:showAsAction="always"
           android:title="@string/menu_salvar_produto"/>
-     <item
-         android:id="@+id/menuitem_excluir"
-         android:icon="@drawable/ic_action_discard"
-         app:showAsAction="collapseActionView"
-         android:title="@string/menu_item_excluir"/>
-     <item
-         android:id="@+id/menuitem_cancelar"
-         android:icon="@drawable/ic_action_cancel"
-         app:showAsAction="collapseActionView"
-         android:title="@string/menu_item_cancelar"/>
+ </group>
+ <group android:id="@+id/menu_ifroom">
+        <item
+            android:id="@+id/menuitem_excluir"
+            android:icon="@drawable/ic_action_discard"
+            app:showAsAction="ifRoom|withText"
+            android:title="@string/menu_item_excluir"/>
+        <item
+            android:id="@+id/menuitem_cancelar"
+            android:icon="@drawable/ic_action_cancel"
+            app:showAsAction="ifRoom|withText"
+            android:title="@string/menu_item_cancelar"/>
+
  </group>
 </menu>
